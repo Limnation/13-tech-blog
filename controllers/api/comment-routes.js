@@ -1,5 +1,6 @@
 const router = require("express").Router();
 const { Comment } = require("../../models/");
+// Use withAuth middleware to prevent access to route
 const withAuth = require("../../utils/auth");
 
 router.post("/", withAuth, async (req, res) => {
