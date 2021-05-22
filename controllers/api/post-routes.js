@@ -1,9 +1,8 @@
-const router = require("express").Router();
-const { Post } = require("../../models/");
-// Use withAuth middleware to prevent access to route
-const withAuth = require("../../utils/auth");
+const router = require('express').Router();
+const { Post } = require('../../models/');
+const withAuth = require('../../utils/auth');
 
-router.post("/", withAuth, async (req, res) => {
+router.post('/', withAuth, async (req, res) => {
   const body = req.body;
 
   try {
@@ -14,7 +13,7 @@ router.post("/", withAuth, async (req, res) => {
   }
 });
 
-router.put("/:id", withAuth, async (req, res) => {
+router.put('/:id', withAuth, async (req, res) => {
   try {
     const [affectedRows] = await Post.update(req.body, {
       where: {
@@ -32,7 +31,7 @@ router.put("/:id", withAuth, async (req, res) => {
   }
 });
 
-router.delete("/:id", withAuth, async (req, res) => {
+router.delete('/:id', withAuth, async (req, res) => {
   try {
     const [affectedRows] = Post.destroy({
       where: {
