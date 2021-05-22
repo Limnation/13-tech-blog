@@ -29,14 +29,14 @@ router.post("/login", async (req, res) => {
     });
 
     if (!user) {
-      res.status(400).json({ message: "No user Found" });
+      res.status(400).json({ message: "No user account found!" });
       return;
     }
 
     const validPassword = user.checkPassword(req.body.password);
 
     if (!validPassword) {
-      res.status(400).json({ message: "No user Found" });
+      res.status(400).json({ message: "No user account found!" });
       return;
     }
 
@@ -45,15 +45,15 @@ router.post("/login", async (req, res) => {
       req.session.username = user.username;
       req.session.loggedIn = true;
 
-      res.json({ user, message: "You're logged in!" });
+      res.json({ user, message: "You are now logged in!" });
     });
   } catch (err) {
-    res.status(500).json(err);
+    res.status(400).json({ message: "No user account found!" });
   }
 });
 
 router.post("/logout", (req, res) => {
-  if (req.session.logged_in) {
+  if (req.session.loggedIn) {
     req.session.destroy(() => {
       res.status(204).end();
     });

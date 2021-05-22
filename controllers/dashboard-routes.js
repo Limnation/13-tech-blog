@@ -32,10 +32,10 @@ router.get("/new", withAuth, (req, res) => {
 
 router.get("/edit/:id", withAuth, async (req, res) => {
   try {
-    const postDataEdit = await Post.findByPk(req.params.id);
+    const postData = await Post.findByPk(req.params.id);
 
-    if (postDataEdit) {
-      const post = postDataEdit.get({ plain: true });
+    if (postData) {
+      const post = postData.get({ plain: true });
 
       res.render("edit-post", {
         layout: "dashboard",
