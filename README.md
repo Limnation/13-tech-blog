@@ -11,6 +11,13 @@ The main objective in this project was to to build a CMS-style blog site that wi
 ![screenshot1](./assets/1.JPG)
 ![screenshot2](./assets/2.JPG)
 ![screenshot3](./assets/3.JPG)
+![screenshot4](./assets/4.JPG)
+![screenshot5](./assets/5.JPG)
+![screenshot6](./assets/6.JPG)
+![screenshot7](./assets/7.JPG)
+![screenshot8](./assets/8.JPG)
+![screenshot9](./assets/9.JPG)
+![screenshot10](./assets/10.JPG)
 
 # link to deployed application
 
