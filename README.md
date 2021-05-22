@@ -1,5 +1,23 @@
 # 14 Model-View-Controller (MVC): Tech Blog
 
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+
+## Myreadme with description
+
+The main objective in this project was to to build a CMS-style blog site that will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+
+## screenshot
+
+![screenshot1](./assets/1.JPG)
+![screenshot2](./assets/2.JPG)
+![screenshot3](./assets/3.JPG)
+
+# link to deployed application
+
+[repository](https://github.com/Limnation/14-tech-blog)
+
+[app heroku](https://tech-blog-14-h13.herokuapp.com/)
+
 ## Your Task
 
 Writing about tech can be just as important as making it. Developers spend plenty of time creating new applications and debugging existing codebases, but most developers also spend at least some of their time reading and writing about technical concepts, recent advancements, and new technologies. A simple Google search for any concept covered in this course returns thousands of think pieces and tutorials from developers of all skill levels!
@@ -56,7 +74,7 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 The following animation demonstrates the application functionality:
 
-![Animation cycles through signing into the app, clicking on buttons, and updating blog posts.](./Assets/14-mvc-homework-demo-01.gif) 
+![Animation cycles through signing into the app, clicking on buttons, and updating blog posts.](./Assets/14-mvc-homework-demo-01.gif)
 
 ## Getting Started
 
@@ -72,52 +90,54 @@ This homework is graded based on the following criteria:
 
 ### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the preceding acceptance criteria plus the following:
+- Satisfies all of the preceding acceptance criteria plus the following:
 
-    * Application’s folder structure follows the Model-View-Controller paradigm.
+  - Application’s folder structure follows the Model-View-Controller paradigm.
 
-    * Uses the [express-handlebars](https://www.npmjs.com/package/express-handlebars) package to implement Handlebars.js for your Views.
+  - Uses the [express-handlebars](https://www.npmjs.com/package/express-handlebars) package to implement Handlebars.js for your Views.
 
-    * Application must be deployed to Heroku.
+  - Application must be deployed to Heroku.
 
 ### Deployment: 32%
 
-* Application deployed at live URL.
+- Application deployed at live URL.
 
-* Application loads with no errors.
+- Application loads with no errors.
 
-* Application GitHub URL submitted.
+- Application GitHub URL submitted.
 
-* GitHub repository contains application code.
+- GitHub repository contains application code.
 
 ### Application Quality: 15%
 
-* User experience is intuitive and easy to navigate.
+- User experience is intuitive and easy to navigate.
 
-* User interface style is clean and polished.
+- User interface style is clean and polished.
 
-* Application resembles the mock-up functionality provided in the homework instructions.
+- Application resembles the mock-up functionality provided in the homework instructions.
 
 ### Repository Quality: 13%
 
-* Repository has a unique name.
+- Repository has a unique name.
 
-* Repository follows best practices for file structure and naming conventions.
+- Repository follows best practices for file structure and naming conventions.
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+- Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
 
-* Repository contains multiple descriptive commit messages.
+- Repository contains multiple descriptive commit messages.
 
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
+- Repository contains quality readme file with description, screenshot, and link to deployed application.
 
 ## Review
 
 You are required to submit BOTH of the following for review:
 
-* The URL of the functional, deployed application.
+- The URL of the functional, deployed application.
 
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
+- The URL of the GitHub repository, with a unique name and a readme describing the project.
 
 ---
+
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
 # 13-tech-blog
