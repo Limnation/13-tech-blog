@@ -116,7 +116,7 @@ input {
 }
 
 .hero {
-  padding: 3% 4%;
+  padding: 1.25% 1%;
   background-color: var(--dark);
   color: var(--primary);
 }
@@ -132,7 +132,6 @@ input {
   padding: 0 10px;
   display: inline-block;
   border-radius: var(--border-radius);
-  box-shadow: 6px 5px var(--light-dark);
 }
 
 .app-title a {
